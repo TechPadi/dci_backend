@@ -1,0 +1,10 @@
+require("dotenv").config()
+module.exports={
+    PORT:process.env.PORT,
+    DB:process.env.DB,
+    SECRET_KEY:process.env.SECRET_KEY,
+    CLOUD_NAME:process.env.CLOUD_NAME,
+    API_KEY:process.env.API_KEY,
+    API_SECRET:process.env.API_SECRET,
+    SEND_GRID_API_KEY:process.env.SEND_GRID_API_KEY
+}
